@@ -1,13 +1,21 @@
 {
-    "name": "lukas/sprint-3-oop",
-    "description": "Simple CMS",
-    "authors": [
-        {
-            "name": "Lukas P",
-            "email": "lukas.ring@gmail.com"
-        }
-    ],
-    "require": {
-        "doctrine/orm": "^2.8"
+  "name": "lukas/sprint-3-oop",
+  "description": "Simple CMS",
+  "authors": [
+    {
+      "name": "Lukas P",
+      "email": "lukas.ring@gmail.com"
     }
+  ],
+  "require": {
+    "doctrine/orm": "^2.8"
+  },
+  "autoload": {
+    "files": [
+      "src/models/Page.php"
+    ]
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.2"
+  }
 }

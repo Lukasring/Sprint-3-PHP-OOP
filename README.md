@@ -15,10 +15,12 @@ Sukurti minimalistinę turinio valdymo sistemą (TVS), kuri turėtų administrav
 
 Projekto paleidimui yra reikalinga [AMPPS](https://ampps.com/).
 
-1. Projekta nuklonuoti iš github arba parsisiųsti .zip
-2. Gautus failus paleisti naudojant PHP interpretatorių
-3. Importuoti _database.sql_ į vietinę MySQL duomenų bazę
-4. Paleisti naudojant localhost
+1. Projekta nuklonuoti iš github arba parsisiųsti .zip ir įkelti į reikiamą PHP aplinką, pvz: _C:\Program Files\Ampps\www_
+2. Projektui reikalingas [composer](https://getcomposer.org/download/)
+3. Esant direktorijoje, panaudojant _composer_ ir CLI suinstaliuoti reikalingus paketus. Pvz: _php ../composer.phar install_
+4. Importuoti _database.sql_ į vietinę MySQL duomenų bazę
+5. Paleisti komandą _vendor/bin/doctrine orm:schema-tool:update --force --dump-sql_
+6. Paleisti naudojant localhost
 
 ### Galimybės
 
@@ -28,12 +30,12 @@ Projekto paleidimui yra reikalinga [AMPPS](https://ampps.com/).
 
 ### TODOS
 
-- [ ] Sukurti duomenų bazę
-- [ ] Sudaryti duomenų bazės struktūrą ir sukurti lenteles
+- [x] Sukurti duomenų bazę
+- [x] Sudaryti duomenų bazės struktūrą ir sukurti lenteles
 - [ ] Sukurti turimų duomenų atvaizdavimą
 - [ ] Padaryti navigaciją tarp puslapių
 - [ ] Sukurti administratoriaus prisijungimą
-- [ ] Padaryti galimybę administratoriui talpinti puslapius
+- [x] Padaryti galimybę administratoriui talpinti puslapius
 - [ ] Atvaizduoti patalpintus puslapius
 - [ ] Padaryti galimybę administratoriui redaguoti puslapius
 - [ ] Padaryti galimybę administratoriui trinti puslapius
