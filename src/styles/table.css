@@ -1,0 +1,12 @@
+.table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.table > div {
+  padding: 16px 8px;
+}
+
+.col-name {
+  background: #ccc;
+}

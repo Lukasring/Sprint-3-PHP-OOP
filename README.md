@@ -38,7 +38,7 @@ Projekto paleidimui yra reikalinga [AMPPS](https://ampps.com/).
 - [x] Padaryti galimybę administratoriui talpinti puslapius
 - [ ] Atvaizduoti patalpintus puslapius
 - [ ] Padaryti galimybę administratoriui redaguoti puslapius
-- [ ] Padaryti galimybę administratoriui trinti puslapius
+- [x] Padaryti galimybę administratoriui trinti puslapius
 - [ ] Clean up, refactor and prettify
 
 ## Author

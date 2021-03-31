@@ -11,6 +11,25 @@ if (isset($_POST['page']) && !empty($_POST['title']) && !empty($_POST['content']
   $entityManager->persist($page);
   $entityManager->flush();
 }
+
+if (isset($_POST['delete'])) {
+  $page = $entityManager->find('Page', $_POST['delete']);
+  $entityManager->remove($page);
+  $entityManager->flush();
+}
+
+$pages = $entityManager->getRepository("Page")->findAll();
+
+print('<section class=\'table\'>');
+print('<div class=\'col-name\'>Title</div><div class=\'col-name\'>Action</div>');
+foreach ($pages as $page) {
+  print('<div>' . $page->getName() . '</div>');
+  print('<div>' . 'Edit |' . "<form action='' method='POST'><button type='submit' name='delete' value='{$page->getId()}'>Delete</button></form>" . '</div>');
+  // dump($page);
+}
+print('</section>');
+
+
 ?>
 
 
