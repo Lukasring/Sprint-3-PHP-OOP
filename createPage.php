@@ -4,8 +4,8 @@ require_once "bootstrap.php";
 
 $newPageName = $argv[1];
 $newPageContent = "
-<h1>Just a rendering test lol </h1>
-  <p>Wow it works!</p>";
+<h3>Welcome to the home page</h3>
+<p>You can check other pages through navigation bar!</p>";
 
 $page = new Page();
 $page->setName($newPageName);

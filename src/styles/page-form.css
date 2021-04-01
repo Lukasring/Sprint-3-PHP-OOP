@@ -1,0 +1,25 @@
+.page-form {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 32px;
+  border: 1px solid rgb(66, 6, 6);
+  border-radius: 4px;
+  align-items: flex-start;
+}
+
+.page-form input,
+.page-form textarea {
+  padding: 4px;
+  width: 100%;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.page-form label {
+  font-weight: bold;
+}
+
+.page-form div {
+  width: 100%;
+  text-align: center;
+}

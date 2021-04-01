@@ -27,19 +27,20 @@ Projekto paleidimui yra reikalinga [AMPPS](https://ampps.com/).
 - Paprastas vartotojas gali peržiūrėti puslapius
 - Yra galimybė prisijungti administratoriui
 - Administratorius gali talpinti, trinti ir redaguoti puslapius
+- Galima puslapius kurti ir naudojant script'ą _createPage.php_, bet per TVS tai daryti paprasčiau
 
 ### TODOS
 
 - [x] Sukurti duomenų bazę
 - [x] Sudaryti duomenų bazės struktūrą ir sukurti lenteles
-- [ ] Sukurti turimų duomenų atvaizdavimą
-- [ ] Padaryti navigaciją tarp puslapių
-- [ ] Sukurti administratoriaus prisijungimą
+- [x] Sukurti turimų duomenų atvaizdavimą
+- [x] Padaryti navigaciją tarp puslapių
+- [x] Sukurti administratoriaus prisijungimą
 - [x] Padaryti galimybę administratoriui talpinti puslapius
-- [ ] Atvaizduoti patalpintus puslapius
-- [ ] Padaryti galimybę administratoriui redaguoti puslapius
+- [x] Atvaizduoti patalpintus puslapius
+- [x] Padaryti galimybę administratoriui redaguoti puslapius
 - [x] Padaryti galimybę administratoriui trinti puslapius
-- [ ] Clean up, refactor and prettify
+- [x] Clean up, refactor and prettify
 
 ## Author
 
